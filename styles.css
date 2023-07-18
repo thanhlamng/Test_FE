@@ -1,0 +1,159 @@
+body {
+    margin: 200px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #FFFDF4;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.small-description {
+    text-align: left;
+    overflow: hidden; 
+    font-size: 12px;
+    max-height: 100px;
+    max-width: 300px; 
+    margin-bottom: 20px;
+    
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: normal;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+   
+}
+
+.image-grid div {
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    text-align: justify;
+    margin: 0px;
+    
+}
+
+.image-grid img {
+    width: 90%; 
+    height: 70%; 
+    margin-bottom: 0px;
+   
+}
+.image-grid p {
+    margin: 10px 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+    width: 70%;
+    text-align: left; 
+}
+.pic_des{
+    color: #414F42;
+    font-size: 100px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 20px; 
+    font-weight: normal;
+}
+.old-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-right: 0px;
+}
+
+.new-price {
+    font-size: 16px;
+}
+.line {
+    border-top: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    opacity: 30%;
+}
+.week-status p {
+    margin: 15px 0;
+}
+.page2 {
+    margin-top: 200px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #ECEDEC;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.page2-content {
+    display: flex;
+    flex-direction: row;
+    align-items: left ;
+    padding: 3%;
+    margin:0;
+}
+h2{
+    font-size: 10px;
+    opacity: 30%;
+    text-align: center;
+}
+.page2-content img {
+    width: 80%;
+    height: 100%;
+    margin-right: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.page2-content p {
+    text-align: center;   
+    font-size: 26.5px; 
+    line-height: 30px;
+    max-width: 850px;
+    margin-top:auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.header-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.header-content p {
+    font-size:3px
+    max-width 50%;
+    max-height :50%;
+}
+.header-content img {
+    margin-top: 50px;
+    max-width: 10%;
+    max-height: 10%;
+}
+.author p {
+    text-align: center;
+    font-size:13px;
+    font-weight: 500; 
+    margin-bottom: 0;
+    line-height: 10px;
+}
+.author {
+    margin:auto;
+}
+.footer p {
+    text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    font-weight: bold;
+    opacity: 50%;
+    font-size: 10px;
+}
