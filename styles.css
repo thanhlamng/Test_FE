@@ -1,5 +1,8 @@
 body {
-    margin: 200px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 194px;
+    margin-right:194px;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -8,18 +11,23 @@ body {
 }
 
 h1 {
+    color: #374639;
     font-size: 45px;
-    margin-bottom: 10px;
-    font-weight: normal;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 53px;
+    margin-bottom:20px;
 }
 .small-description {
-    text-align: left;
-    overflow: hidden; 
-    font-size: 12px;
-    max-height: 100px;
-    max-width: 300px; 
-    margin-bottom: 20px;
+    color: #3F514B;
     
+    font-size: 19px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 27px;
+    width: 400px;
+    height: 84px;
+    margin-bottom: 40px;
 }
 p {
     font-size: 14px;
@@ -28,9 +36,9 @@ p {
 }
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0px;
-   
+    grid-template-columns: repeat(4, calc(25% - 23px)); 
+    grid-gap: 23px;
+
 }
 
 .image-grid div {
@@ -52,7 +60,7 @@ p {
     margin: 10px 0;
     margin-bottom: 20px;
     font-size: 17px;
-    width: 70%;
+    width: 75%;
     text-align: left; 
 }
 .pic_des{
@@ -62,15 +70,28 @@ p {
     font-weight: 400; 
     line-height: 20px; 
     font-weight: normal;
+    margin-bottom: 20px;
 }
 .old-price {
-    font-size: 14px;
-    text-decoration: line-through;
-    margin-right: 0px;
+color: #72776C;
+ font-size: 13px;
+ font-family: Poppins;
+ font-weight: 400;
+ text-decoration: line-through;
+ text-transform: uppercase;
+ line-height: 18px;
+ letter-spacing: 0.13px;
+ word-wrap: break-word
 }
 
 .new-price {
-    font-size: 16px;
+    color: #3F514B;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 23px;
+    word-wrap: break-word
 }
 .line {
     border-top: 1px solid black;
@@ -80,7 +101,12 @@ p {
     opacity: 30%;
 }
 .week-status p {
-    margin: 15px 0;
+    color: #3F514B;
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 .page2 {
     margin-top: 200px;
@@ -101,6 +127,7 @@ p {
     align-items: left ;
     padding: 3%;
     margin:0;
+    font-family: Poppins; 
 }
 h2{
     font-size: 10px;
@@ -119,8 +146,10 @@ h2{
 
 .page2-content p {
     text-align: center;   
-    font-size: 26.5px; 
-    line-height: 30px;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 40px; 
+    line-height: 40px;
     max-width: 850px;
     margin-top:auto;
     margin-left: 80px;
@@ -143,7 +172,7 @@ h2{
 }
 .author p {
     text-align: center;
-    font-size:13px;
+    font-size:16px;
     font-weight: 500; 
     margin-bottom: 0;
     line-height: 10px;
@@ -152,6 +181,7 @@ h2{
     margin:auto;
 }
 .footer p {
+    font-size:15px;
     text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
     font-weight: bold;
     opacity: 50%;
